@@ -1,11 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage("Install .NET 6.0") {
-            steps {
-                bat "choco install dotnet-6.0-sdk -y"
-            }
-        }
         stage("Restore dependencies") {
             when {
                 anyOf {
