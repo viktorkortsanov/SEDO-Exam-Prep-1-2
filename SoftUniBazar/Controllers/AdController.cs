@@ -9,6 +9,7 @@ using SoftUniBazar.Models.Category;
 
 namespace SoftUniBazar.Controllers
 {
+    //Test
     [Authorize]
     public class AdController : Controller
     {
